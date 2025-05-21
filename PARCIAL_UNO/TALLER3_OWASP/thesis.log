@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.9)  20 MAY 2025 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.9)  20 MAY 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -75,20 +75,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
@@ -111,7 +111,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <espe.png, id=1, 803.0pt x 301.125pt>
 File: espe.png Graphic file (type png)
 <use espe.png>
-Package pdftex.def Info: espe.png  used on input line 14.
+Package pdftex.def Info: espe.png  used on input line 15.
 (pdftex.def)             Requested size: 312.00119pt x 117.00175pt.
 
 
@@ -130,78 +130,86 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-[1] (./thesis.lof)
-\tf@lof=\write4
-\openout4 = `thesis.lof'.
+[1]
 
- (./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
+[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (0.82845pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/bx/n/12 Promoci^^Son de bue-nas pr^^Sacticas: \OT1/cmr/m/n/12 Fa-cili-ta metodolog^^S^^Pas para dise~nar,
+ []
 
 
-[2]
+Overfull \hbox (4.285pt too wide) in paragraph at lines 68--69
+\OT1/cmr/m/n/12 co-mo OWASP ZAP (her-ramien-ta de an^^Salisis de se-guri-dad), Dependency-
+ []
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[4]
-Overfull \hbox (3.3578pt too wide) in paragraph at lines 101--102
+
+[3]
+Overfull \hbox (3.3578pt too wide) in paragraph at lines 93--94
 []\OT1/cmr/bx/n/12 Descripci^^Son: \OT1/cmr/m/n/12 Im-ple-menta-ciones de-fi-cientes de au-t-en-ti-caci^^Son, co-mo con-
  []
 
 
-Overfull \hbox (0.24962pt too wide) in paragraph at lines 111--111
+Overfull \hbox (0.24962pt too wide) in paragraph at lines 103--103
 []\OT1/cmr/bx/n/14.4 3. API3:2023 { Au-tor-izaci^^Son de Niv-el de Propiedad
  []
 
 
 
-[5]
-Overfull \hbox (27.18173pt too wide) in paragraph at lines 120--121
+[4]
+Overfull \hbox (27.18173pt too wide) in paragraph at lines 112--113
 []\OT1/cmr/m/n/12 Implementar con-troles de-tal-la-dos y val-i-da-ciones es-tric-tas por propiedad. 
  []
 
 
-Overfull \hbox (32.53368pt too wide) in paragraph at lines 127--128
+Overfull \hbox (32.53368pt too wide) in paragraph at lines 119--120
 []\OT1/cmr/bx/n/12 Impacto: \OT1/cmr/m/n/12 Dene-gaci^^Son de ser-vi-cio (DoS), cos-tos op-er-a-tivos al-tos y degradaci^^Son
  []
 
 
 
+[5]
+
 [6]
 
 [7]
-Overfull \hbox (3.68053pt too wide) in paragraph at lines 217--218
-[]\OT1/cmr/bx/n/12 Investigaci^^Son Ini-cial: \OT1/cmr/m/n/12 Re-visi^^Son de la doc-u-mentaci^^Son ofi-cial de OWASP
+
+[8]
+Overfull \hbox (12.2918pt too wide) in paragraph at lines 239--240
+[]\OT1/cmr/m/n/12 Gu^^S^^Pa del De-sar-rol-lador OWASP | Fun-da-men-tos de Se-guri-dad | OWASP
+ []
+
+
+Overfull \hbox (23.65437pt too wide) in paragraph at lines 239--240
+\OT1/cmr/m/n/12 Foun-da-tion. (n.d.). $\OT1/cmtt/m/n/12 https : / / owasp . org / www-[]project-[]developer-[]guide /
+ []
+
+
+Overfull \hbox (50.4249pt too wide) in paragraph at lines 242--243
+\OT1/cmtt/m/n/12 https : / / gti . co . cr / tendencias / revision-[]del-[]top-[]10-[]de-[]owasp-[]api-[]2023$ 
  []
 
 
 
-[8]
-
-[9]
-
-[10]
-
-[11] (./thesis.aux)
+[9] (./thesis.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2687 strings out of 475171
- 46214 string characters out of 5767096
- 451579 words of memory out of 5000000
- 25687 multiletter control sequences out of 15000+600000
- 564203 words of font info for 54 fonts, out of 8000000 for 9000
+ 2668 strings out of 475171
+ 45898 string characters out of 5767096
+ 450557 words of memory out of 5000000
+ 25673 multiletter control sequences out of 15000+600000
+ 564550 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,5n,65p,566b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (12 pages, 141444 bytes).
+ 57i,5n,65p,589b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (10 pages, 156239 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

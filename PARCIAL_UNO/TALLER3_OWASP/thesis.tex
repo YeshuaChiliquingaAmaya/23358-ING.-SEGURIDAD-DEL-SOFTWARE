@@ -4,6 +4,7 @@
 \usepackage[provide=*,spanish]{babel}
 \usepackage{float}
 \usepackage{url}
+\usepackage{url}
 \begin{document}
 
 
@@ -36,19 +37,36 @@
 \tableofcontents
 \newpage
 
-% Índice de figuras y tablas
-\listoffigures
-\listoftables
-\newpage
-
 % Sección 1 - Introducción
-\section{Introducci\'on}
+\section{Introducción}
 
 \subsection{Objetivo}
 
+El objetivo de este trabajo es presentar el OWASP API Security Top 10 - 2023, una lista de las 10 vulnerabilidades más críticas en APIs, y analizar cada una de ellas, proporcionando ejemplos y recomendaciones para prevenir y mitigarlas.
+
 \subsection{Objetivos Espec\'ificos}
 \begin{itemize}
-    \item 
+    \item Presentar el OWASP API Security Top 10 - 2023 y sus categorías.
+    \item Analizar cada una de las vulnerabilidades, proporcionando ejemplos y recomendaciones para prevenir y mitigarlas.
+    \item Discutir las herramientas OWASP que se pueden utilizar para resolver vulnerabilidades en APIs.
+    \item Proporcionar recomendaciones generales para implementar seguridad en APIs.
+\end{itemize}
+
+\section{Desarrollo}
+\subsection{¿Qué es?}
+En ciberseguridad, \textbf{OWASP} (no OSWAP) es el acrónimo de \textit{Open Web Application Security Project}, una comunidad en línea sin fines de lucro que se dedica a mejorar la seguridad del software. OWASP proporciona recursos, herramientas, estándares y documentación abierta para ayudar a desarrolladores, empresas y profesionales de seguridad a proteger las aplicaciones web contra vulnerabilidades comunes.
+
+El proyecto más conocido de OWASP es el \textbf{OWASP Top Ten}, una lista que identifica las diez vulnerabilidades más críticas en aplicaciones web, como inyección SQL, fallos de autenticación y cross-site scripting (XSS). OWASP es fundamental para orientar las mejores prácticas en el desarrollo seguro y la evaluación de riesgos en aplicaciones web.
+
+\subsection*{Características de OWASP}
+\begin{itemize}
+    \item \textbf{Comunidad abierta y colaborativa:} OWASP es un proyecto sin fines de lucro basado en contribuciones voluntarias de expertos en seguridad de todo el mundo.
+    \item \textbf{Recursos accesibles y gratuitos:} Proporciona guías, herramientas, estándares y documentación para mejorar la seguridad en el desarrollo de aplicaciones, todo disponible libremente.
+    \item \textbf{OWASP Top Ten:} Lista de las diez vulnerabilidades más críticas en aplicaciones web, usada globalmente como referencia para pruebas y desarrollo seguro.
+    \item \textbf{Enfoque en aplicaciones web:} OWASP se especializa en la seguridad de software web, incluyendo aplicaciones móviles y APIs.
+    \item \textbf{Promoción de buenas prácticas:} Facilita metodologías para diseñar, desarrollar y mantener aplicaciones con un enfoque en seguridad desde el inicio.
+    \item \textbf{Herramientas y proyectos diversos:} Mantiene numerosos proyectos como OWASP ZAP (herramienta de análisis de seguridad), Dependency-Check, entre otros.
+    \item \textbf{Actualización constante:} Los recursos y listas se actualizan regularmente para reflejar nuevas amenazas y técnicas de ataque.
 \end{itemize}
 
 % Sección 2 - Descripción de la Práctica
@@ -57,32 +75,6 @@
 El Open Web Application Security Project (OWASP) es una organización sin fines de lucro que se dedica a mejorar la seguridad de las aplicaciones web y las API. Una de sus contribuciones más reconocidas es el "OWASP Top 10", una lista que identifica las diez vulnerabilidades de seguridad más críticas en aplicaciones web. Este informe se actualiza regularmente para reflejar las amenazas más relevantes.
 
 En 2019, OWASP reconoció la creciente importancia de las API y desarrolló una lista específica de vulnerabilidades para este tipo de servicios. La versión 2023 del OWASP API Security Top 10 identifica las principales amenazas que enfrentan las API modernas.
-
-\subsection{Herramientas OWASP para Resolver Vulnerabilidades}
-OWASP ofrece diversas herramientas y recursos para mitigar estas vulnerabilidades:
-
-\begin{itemize}
-    \item \textbf{OWASP Testing Guide:} Guía detallada para realizar pruebas de seguridad en aplicaciones web y API, que ayuda a identificar vulnerabilidades específicas.
-    \item \textbf{OWASP Cheat Sheet Series:} Hojas informativas con recomendaciones prácticas y ejemplos de código para evitar vulnerabilidades comunes.
-    \item \textbf{OWASP ZAP (Zed Attack Proxy):} Herramienta gratuita y de código abierto para pruebas de penetración y detección de vulnerabilidades en aplicaciones web y API.
-    \item \textbf{OWASP Dependency-Check:} Analiza dependencias y bibliotecas para identificar componentes vulnerables y ayudar en la gestión de riesgos.
-    \item \textbf{OWASP ModSecurity Core Rule Set:} Conjunto de reglas para firewalls de aplicaciones web que ayuda a bloquear ataques comunes y proteger las API.
-\end{itemize}
-
-Estas herramientas permiten a los desarrolladores y equipos de seguridad implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones. La combinación de pruebas automatizadas, análisis de código y protección en tiempo real es esencial para mantener la seguridad de las API modernas.
-
-\subsection{Herramientas OWASP para Resolver Vulnerabilidades}
-OWASP ofrece diversas herramientas y recursos para mitigar estas vulnerabilidades:
-
-\begin{itemize}
-    \item \textbf{OWASP Testing Guide:} Guía detallada para realizar pruebas de seguridad en aplicaciones web y API, que ayuda a identificar vulnerabilidades específicas.
-    \item \textbf{OWASP Cheat Sheet Series:} Hojas informativas con recomendaciones prácticas y ejemplos de código para evitar vulnerabilidades comunes.
-    \item \textbf{OWASP ZAP (Zed Attack Proxy):} Herramienta gratuita y de código abierto para pruebas de penetración y detección de vulnerabilidades en aplicaciones web y API.
-    \item \textbf{OWASP Dependency-Check:} Analiza dependencias y bibliotecas para identificar componentes vulnerables y ayudar en la gestión de riesgos.
-    \item \textbf{OWASP ModSecurity Core Rule Set:} Conjunto de reglas para firewalls de aplicaciones web que ayuda a bloquear ataques comunes y proteger las API.
-\end{itemize}
-
-Estas herramientas permiten a los desarrolladores y equipos de seguridad implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones. La combinación de pruebas automatizadas, análisis de código y protección en tiempo real es esencial para mantener la seguridad de las API modernas.
 
 \subsection{1. API1:2023 – Autorización de Nivel de Objeto Rota (BOLA)}
 \begin{itemize}
@@ -208,91 +200,46 @@ Estas herramientas permiten a los desarrolladores y equipos de seguridad impleme
     \end{itemize}
 \end{itemize}
 
-
-
-% Sección 3 - Metodología
-\section{Metodolog\'ia}
-
-\begin{enumerate}
-    \item \textbf{Investigación Inicial:} Revisión de la documentación oficial de OWASP API Security Top 10 - 2023 y análisis de las vulnerabilidades identificadas.
-    \item \textbf{Análisis de Casos de Uso:} Identificación de escenarios comunes donde las vulnerabilidades de API pueden ser explotadas.
-    \item \textbf{Implementación de Pruebas:} Desarrollo de pruebas específicas para cada vulnerabilidad identificada.
-    \item \textbf{Validación de Herramientas:} Prueba y evaluación de las herramientas OWASP mencionadas para la detección de vulnerabilidades.
-    \item \textbf{Documentación de Resultados:} Registro detallado de los hallazgos y recomendaciones de seguridad.
-\end{enumerate}
-
-% Sección 4 - Desarrollo
-\section{Desarrollo}
-
-\subsection{Implementación}
-
-\subsubsection{Paso 1: Configuración del Entorno de Prueba}
-
-\begin{figure}[H]
-    \centering
- 
-    \caption{Arquitectura del entorno de prueba}
-    \label{fig:entorno_prueba}
-\end{figure}
-
-\subsubsection{Paso 2: Implementación de Pruebas de Seguridad}
+\subsection{Herramientas OWASP para Resolver Vulnerabilidades}
+OWASP ofrece diversas herramientas y recursos para mitigar estas vulnerabilidades:
 
 \begin{itemize}
-    \item Configuración de OWASP ZAP para pruebas de API
-    \item Implementación de pruebas automatizadas para cada vulnerabilidad
-    \item Configuración de OWASP Dependency-Check para análisis de dependencias
-    \item Implementación de reglas de ModSecurity para protección de API
+    \item \textbf{OWASP Testing Guide:} Guía detallada para realizar pruebas de seguridad en aplicaciones web y API, que ayuda a identificar vulnerabilidades específicas.
+    \item \textbf{OWASP Cheat Sheet Series:} Hojas informativas con recomendaciones prácticas y ejemplos de código para evitar vulnerabilidades comunes.
+    \item \textbf{OWASP ZAP (Zed Attack Proxy):} Herramienta gratuita y de código abierto para pruebas de penetración y detección de vulnerabilidades en aplicaciones web y API.
+    \item \textbf{OWASP Dependency-Check:} Analiza dependencias y bibliotecas para identificar componentes vulnerables y ayudar en la gestión de riesgos.
+    \item \textbf{OWASP ModSecurity Core Rule Set:} Conjunto de reglas para firewalls de aplicaciones web que ayuda a bloquear ataques comunes y proteger las API.
 \end{itemize}
 
-\subsection{Evaluación de Resultados}
-
-\begin{itemize}
-    \item Análisis detallado de los resultados obtenidos
-    \item Identificación de vulnerabilidades encontradas
-    \item Evaluación de la efectividad de las herramientas OWASP
-    \item Documentación de los casos de éxito y fracaso
-\end{itemize}
-
-\subsection{Análisis y Discusión Sobre los Resultados}
-
-\begin{itemize}
-    \item Discusión de las vulnerabilidades más críticas encontradas
-    \item Análisis de las fortalezas y debilidades de las herramientas OWASP
-    \item Impacto de las vulnerabilidades en diferentes escenarios de uso
-    \item Recomendaciones específicas para mitigar cada vulnerabilidad
-\end{itemize}
+Estas herramientas permiten a los desarrolladores y equipos de seguridad implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones. La combinación de pruebas automatizadas, análisis de código y protección en tiempo real es esencial para mantener la seguridad de las API modernas.
 
 % Sección 5 - Conclusiones
 \section{Conclusiones}
 
-\begin{itemize}
-    \item Las vulnerabilidades de API son una amenaza real y creciente
-    \item Las herramientas OWASP son efectivas para detectar y mitigar vulnerabilidades
-    \item La implementación de múltiples capas de seguridad es esencial
-    \item La educación y concienciación sobre seguridad de API es necesaria
-    \item La combinación de herramientas automatizadas y análisis manual es la mejor aproximación
-\end{itemize}
+La seguridad de las API es una tarea compleja que requiere una aproximación integral. La implementación de controles de acceso estrictos, el uso de herramientas de análisis de código y la actualización continua de dependencias y bibliotecas son fundamentales. Sin embargo, la seguridad de las API no se puede lograr solo con herramientas, también se requiere educación y concienciación sobre la importancia de la seguridad.
+
+La creciente complejidad de las API y la cantidad de datos que manejan las hace especialmente vulnerables a ataques. La implementación de múltiples capas de seguridad es esencial para proteger las API. La educación y concienciación sobre seguridad de API es necesaria para que los desarrolladores y los equipos de seguridad puedan implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones.
 
 \section{Recomendaciones}
 
-\begin{itemize}
-    \item Implementar controles de acceso estrictos en todas las API
-    \item Utilizar herramientas de análisis estático y dinámico de código
-    \item Mantener un inventario actualizado de APIs y sus versiones
-    \item Implementar monitoreo y logging continuo de las API
-    \item Realizar pruebas de seguridad periódicas
-    \item Mantener actualizadas todas las dependencias y bibliotecas
-\end{itemize}
+Para mejorar la seguridad de las API, se recomienda:
+
+Implementar controles de acceso estrictos en todas las API.
+Utilizar herramientas de análisis estático y dinámico de código.
+Mantener un inventario actualizado de APIs y sus versiones.
+Implementar monitoreo y logging continuo de las API.
+Realizar pruebas de seguridad periódicas.
+Mantener actualizadas todas las dependencias y bibliotecas.
 
 % Sección 6 - Referencias
 \section{Referencias}
 
 \begin{itemize}
-    \item OWASP. (2023). OWASP API Security Top 10 - 2023. \\ \url{https://owasp.org/www-project-api-security/}
-    \item OWASP. (2023). OWASP Zed Attack Proxy Project. \\ \url{https://www.zaproxy.org/}
-    \item OWASP. (2023). OWASP Dependency-Check. \\ \url{https://owasp.org/www-project-dependency-check/}
-    \item OWASP. (2023). OWASP ModSecurity Core Rule Set Project. \\ \url{https://owasp.org/www-project-modsecurity-core-rule-set/}
-    \item OWASP. (2023). OWASP Testing Guide v5. \\ \url{https://owasp.org/www-project-web-security-testing-guide/}
+    \item Arsys. (n.d.). OWASP: ¿Qué es y cómo usar esta metodología? \url{https://www.arsys.es/blog/owasp}
+    \item Guía del Desarrollador OWASP | Fundamentos de Seguridad | OWASP Foundation. (n.d.). \url{https://owasp.org/www-project-developer-guide/release-es/fundamentos/fundamentos_seguridad/}
+    \item Stone, N. (2024, July 5). Cómo aprender OWASP e impulsar la seguridad de sus aplicaciones - Parasoft. Parasoft. \url{https://es.parasoft.com/blog/getting-started-with-owasp/}
+    \item \url{https://owasp.org/}
+    \item GTI. (s. f.). Revisión del Top 10 de OWASP API 2023. \\ \url{https://gti.co.cr/tendencias/revision-del-top-10-de-owasp-api-2023}
 \end{itemize}
 
 \end{document}
