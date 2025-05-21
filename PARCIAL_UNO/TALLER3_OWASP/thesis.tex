@@ -1,0 +1,298 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[provide=*,spanish]{babel}
+\usepackage{float}
+\usepackage{url}
+\begin{document}
+
+
+% Portada
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    \includegraphics[width=0.8\linewidth]{espe.png}\\[0.5cm]
+    
+    \Large \textbf{Departamento de Ciencias de la Computación}\\
+    \large \textbf{Universidad de las Fuerzas Armadas - ESPE}\\[0.5cm]
+    
+    \Huge \textbf{Taller de Investigación}\\[0.3cm]
+    \Large \textbf{Tema: OWASP API Security Top 10 - 2023}\\[0.8cm]
+    
+    \textbf{Nombres:}\\
+    Yeshua Amador Chiliquinga Amaya\\
+    Cesar Ignacio Loor Mercado\\
+    Jose Migel Sanmartin Galan\\[0.3cm]
+    
+    \textbf{Carrera / Asignatura:} Ingeniería de Software / Ingeniería de Seguridad de Software\\
+    \textbf{NRC:} 2540\\
+    \textbf{Nombre del profesor:} Walter Fuertes, PhD\\[0.5cm]
+    
+    \textbf{Fecha de presentación:} 2 de diciembre del 2024\\[1cm]
+    
+    \vfill
+\end{titlepage}
+% Índice de contenido
+\tableofcontents
+\newpage
+
+% Índice de figuras y tablas
+\listoffigures
+\listoftables
+\newpage
+
+% Sección 1 - Introducción
+\section{Introducci\'on}
+
+\subsection{Objetivo}
+
+\subsection{Objetivos Espec\'ificos}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+% Sección 2 - Descripción de la Práctica
+\section{OWASP API Security Top 10 - 2023}
+
+El Open Web Application Security Project (OWASP) es una organización sin fines de lucro que se dedica a mejorar la seguridad de las aplicaciones web y las API. Una de sus contribuciones más reconocidas es el "OWASP Top 10", una lista que identifica las diez vulnerabilidades de seguridad más críticas en aplicaciones web. Este informe se actualiza regularmente para reflejar las amenazas más relevantes.
+
+En 2019, OWASP reconoció la creciente importancia de las API y desarrolló una lista específica de vulnerabilidades para este tipo de servicios. La versión 2023 del OWASP API Security Top 10 identifica las principales amenazas que enfrentan las API modernas.
+
+\subsection{Herramientas OWASP para Resolver Vulnerabilidades}
+OWASP ofrece diversas herramientas y recursos para mitigar estas vulnerabilidades:
+
+\begin{itemize}
+    \item \textbf{OWASP Testing Guide:} Guía detallada para realizar pruebas de seguridad en aplicaciones web y API, que ayuda a identificar vulnerabilidades específicas.
+    \item \textbf{OWASP Cheat Sheet Series:} Hojas informativas con recomendaciones prácticas y ejemplos de código para evitar vulnerabilidades comunes.
+    \item \textbf{OWASP ZAP (Zed Attack Proxy):} Herramienta gratuita y de código abierto para pruebas de penetración y detección de vulnerabilidades en aplicaciones web y API.
+    \item \textbf{OWASP Dependency-Check:} Analiza dependencias y bibliotecas para identificar componentes vulnerables y ayudar en la gestión de riesgos.
+    \item \textbf{OWASP ModSecurity Core Rule Set:} Conjunto de reglas para firewalls de aplicaciones web que ayuda a bloquear ataques comunes y proteger las API.
+\end{itemize}
+
+Estas herramientas permiten a los desarrolladores y equipos de seguridad implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones. La combinación de pruebas automatizadas, análisis de código y protección en tiempo real es esencial para mantener la seguridad de las API modernas.
+
+\subsection{Herramientas OWASP para Resolver Vulnerabilidades}
+OWASP ofrece diversas herramientas y recursos para mitigar estas vulnerabilidades:
+
+\begin{itemize}
+    \item \textbf{OWASP Testing Guide:} Guía detallada para realizar pruebas de seguridad en aplicaciones web y API, que ayuda a identificar vulnerabilidades específicas.
+    \item \textbf{OWASP Cheat Sheet Series:} Hojas informativas con recomendaciones prácticas y ejemplos de código para evitar vulnerabilidades comunes.
+    \item \textbf{OWASP ZAP (Zed Attack Proxy):} Herramienta gratuita y de código abierto para pruebas de penetración y detección de vulnerabilidades en aplicaciones web y API.
+    \item \textbf{OWASP Dependency-Check:} Analiza dependencias y bibliotecas para identificar componentes vulnerables y ayudar en la gestión de riesgos.
+    \item \textbf{OWASP ModSecurity Core Rule Set:} Conjunto de reglas para firewalls de aplicaciones web que ayuda a bloquear ataques comunes y proteger las API.
+\end{itemize}
+
+Estas herramientas permiten a los desarrolladores y equipos de seguridad implementar medidas efectivas para prevenir y corregir fallas en sus aplicaciones. La combinación de pruebas automatizadas, análisis de código y protección en tiempo real es esencial para mantener la seguridad de las API modernas.
+
+\subsection{1. API1:2023 – Autorización de Nivel de Objeto Rota (BOLA)}
+\begin{itemize}
+    \item \textbf{Descripción:} Ocurre cuando una API no verifica adecuadamente si un usuario tiene permiso para acceder a un objeto específico, permitiendo que atacantes manipulen identificadores de objetos para acceder a datos de otros usuarios.
+    \item \textbf{Impacto:} Acceso no autorizado a información confidencial y posibilidad de realizar acciones no autorizadas, como modificar o eliminar datos.
+    \item \textbf{Ejemplo:} Un atacante autenticado como el usuario A accede o modifica los datos del usuario B mediante la manipulación del ID del objeto.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Falta de controles de acceso a nivel de objeto.
+        \item Implementar políticas de acceso estrictas y controles en la capa lógica de la aplicación.
+        \item Realizar pruebas automatizadas para detectar fallas de autorización.
+    \end{itemize}
+\end{itemize}
+\subsection{2. API2:2023 – Autenticación Rota}
+\begin{itemize}
+    \item \textbf{Descripción:} Implementaciones deficientes de autenticación, como contraseñas débiles o manejo inseguro de tokens.
+    \item \textbf{Impacto:} Compromiso de cuentas de usuario, robo de datos y transacciones no autorizadas.
+    \item \textbf{Ejemplo:} Uso de credenciales robadas o filtradas para acceder a una API.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Requisitos de contraseñas débiles.
+        \item Implementar autenticación multifactor y políticas de contraseñas robustas.
+        \item Monitorear intentos de acceso y aplicar bloqueos por tasa.
+    \end{itemize}
+\end{itemize}
+\subsection{3. API3:2023 – Autorización de Nivel de Propiedad de Objeto Rota}
+
+\begin{itemize}
+    \item \textbf{Descripción:} Ocurre cuando no se aplican controles adecuados en propiedades específicas de un objeto.
+    \item \textbf{Impacto:} Escaladas de privilegios o pérdida de integridad de datos.
+    \item \textbf{Ejemplo:} Cambiar el plan de suscripción modificando la propiedad \texttt{"account-type"}.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Falta de validación de autorización a nivel de propiedad.
+        \item Implementar controles detallados y validaciones estrictas por propiedad.
+    \end{itemize}
+\end{itemize}
+
+\subsection{4. API4:2023 – Consumo de Recursos sin Restricciones}
+\begin{itemize}
+    \item \textbf{Descripción:} Falta de limitaciones en el uso de recursos puede ser explotado para agotar el sistema.
+    \item \textbf{Impacto:} Denegación de servicio (DoS), costos operativos altos y degradación del rendimiento.
+    \item \textbf{Ejemplo:} Un atacante envía múltiples solicitudes que consumen muchos recursos.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Ausencia de límites de tasa y cuotas.
+        \item Implementar mecanismos de limitación y monitoreo.
+        \item Usar gateways de API para control de acceso.
+    \end{itemize}
+\end{itemize}
+
+\subsection{5. API5:2023 – Autorización de Nivel de Función Rota}
+
+\begin{itemize}
+    \item \textbf{Descripción:} Controles de acceso inadecuados en funciones específicas.
+    \item \textbf{Impacto:} Acceso a funciones administrativas o sensibles sin autorización.
+    \item \textbf{Ejemplo:} Un usuario accede a un endpoint de administrador sin permisos.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Falta o mal implementación de controles de acceso.
+        \item Definir roles y permisos claramente y validarlos por función.
+    \end{itemize}
+\end{itemize}
+
+\subsection{6. API6:2023 – Falsificación de Solicitudes del Lado del Servidor (SSRF)}
+
+\begin{itemize}
+    \item \textbf{Descripción:} La API permite que el servidor realice solicitudes a destinos maliciosos.
+    \item \textbf{Impacto:} Acceso a recursos internos, escaneo de puertos y exfiltración de datos.
+    \item \textbf{Ejemplo:} Solicitud maliciosa que accede a recursos internos del servidor.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Falta de validación de URLs proporcionadas.
+        \item Usar listas blancas y validar estrictamente las URLs.
+    \end{itemize}
+\end{itemize}
+
+\subsection{7. API7:2023 – Configuración de Seguridad Incorrecta}
+\begin{itemize}
+    \item \textbf{Descripción:} Configuraciones inseguras o por defecto en la API o servidores.
+    \item \textbf{Impacto:} Exposición de datos sensibles, acceso no autorizado y explotación de vulnerabilidades.
+    \item \textbf{Ejemplo:} API que expone información de depuración o usa credenciales por defecto.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Uso de configuraciones inseguras o por defecto.
+        \item Realizar auditorías, aplicar principios de configuración segura.
+    \end{itemize}
+\end{itemize}
+
+\subsection{8. API8:2023 – Falta de Protección Frente a Amenazas Automatizadas}
+\begin{itemize}
+    \item \textbf{Descripción:} Ausencia de protección contra bots o ataques automatizados.
+    \item \textbf{Impacto:} Explotación de flujos de negocio, fraude y agotamiento de recursos.
+    \item \textbf{Ejemplo:} Bots compran entradas para revenderlas, afectando usuarios reales.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item No detección de tráfico automatizado.
+        \item Implementar detección de bots, CAPTCHA y límites de velocidad.
+    \end{itemize}
+\end{itemize}
+
+\subsection{9. API9:2023 – Gestión Inadecuada del Inventario}
+\begin{itemize}
+    \item \textbf{Descripción:} Falta de control y documentación sobre versiones y endpoints de las APIs.
+    \item \textbf{Impacto:} Exposición de datos por uso de versiones obsoletas o endpoints no documentados.
+    \item \textbf{Ejemplo:} API antigua expone datos por falta de mantenimiento.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Ausencia de políticas de versionado y retiro.
+        \item Gestionar activos y auditar periódicamente.
+    \end{itemize}
+\end{itemize}
+
+\subsection{10. API10:2023 – Consumo No Seguro de APIs}
+\begin{itemize}
+    \item \textbf{Descripción:} API que consume servicios de terceros sin validar respuestas.
+    \item \textbf{Impacto:} Violación de privacidad, robo de datos y control de cuentas.
+    \item \textbf{Ejemplo:} Redirección a sitios maliciosos por una API comprometida.
+    \item \textbf{Causas Raíz y Prevención:}
+    \begin{itemize}
+        \item Validación insuficiente de respuestas de terceros.
+        \item Evaluar seguridad de APIs externas, validar y cifrar toda la comunicación.
+    \end{itemize}
+\end{itemize}
+
+
+
+% Sección 3 - Metodología
+\section{Metodolog\'ia}
+
+\begin{enumerate}
+    \item \textbf{Investigación Inicial:} Revisión de la documentación oficial de OWASP API Security Top 10 - 2023 y análisis de las vulnerabilidades identificadas.
+    \item \textbf{Análisis de Casos de Uso:} Identificación de escenarios comunes donde las vulnerabilidades de API pueden ser explotadas.
+    \item \textbf{Implementación de Pruebas:} Desarrollo de pruebas específicas para cada vulnerabilidad identificada.
+    \item \textbf{Validación de Herramientas:} Prueba y evaluación de las herramientas OWASP mencionadas para la detección de vulnerabilidades.
+    \item \textbf{Documentación de Resultados:} Registro detallado de los hallazgos y recomendaciones de seguridad.
+\end{enumerate}
+
+% Sección 4 - Desarrollo
+\section{Desarrollo}
+
+\subsection{Implementación}
+
+\subsubsection{Paso 1: Configuración del Entorno de Prueba}
+
+\begin{figure}[H]
+    \centering
+ 
+    \caption{Arquitectura del entorno de prueba}
+    \label{fig:entorno_prueba}
+\end{figure}
+
+\subsubsection{Paso 2: Implementación de Pruebas de Seguridad}
+
+\begin{itemize}
+    \item Configuración de OWASP ZAP para pruebas de API
+    \item Implementación de pruebas automatizadas para cada vulnerabilidad
+    \item Configuración de OWASP Dependency-Check para análisis de dependencias
+    \item Implementación de reglas de ModSecurity para protección de API
+\end{itemize}
+
+\subsection{Evaluación de Resultados}
+
+\begin{itemize}
+    \item Análisis detallado de los resultados obtenidos
+    \item Identificación de vulnerabilidades encontradas
+    \item Evaluación de la efectividad de las herramientas OWASP
+    \item Documentación de los casos de éxito y fracaso
+\end{itemize}
+
+\subsection{Análisis y Discusión Sobre los Resultados}
+
+\begin{itemize}
+    \item Discusión de las vulnerabilidades más críticas encontradas
+    \item Análisis de las fortalezas y debilidades de las herramientas OWASP
+    \item Impacto de las vulnerabilidades en diferentes escenarios de uso
+    \item Recomendaciones específicas para mitigar cada vulnerabilidad
+\end{itemize}
+
+% Sección 5 - Conclusiones
+\section{Conclusiones}
+
+\begin{itemize}
+    \item Las vulnerabilidades de API son una amenaza real y creciente
+    \item Las herramientas OWASP son efectivas para detectar y mitigar vulnerabilidades
+    \item La implementación de múltiples capas de seguridad es esencial
+    \item La educación y concienciación sobre seguridad de API es necesaria
+    \item La combinación de herramientas automatizadas y análisis manual es la mejor aproximación
+\end{itemize}
+
+\section{Recomendaciones}
+
+\begin{itemize}
+    \item Implementar controles de acceso estrictos en todas las API
+    \item Utilizar herramientas de análisis estático y dinámico de código
+    \item Mantener un inventario actualizado de APIs y sus versiones
+    \item Implementar monitoreo y logging continuo de las API
+    \item Realizar pruebas de seguridad periódicas
+    \item Mantener actualizadas todas las dependencias y bibliotecas
+\end{itemize}
+
+% Sección 6 - Referencias
+\section{Referencias}
+
+\begin{itemize}
+    \item OWASP. (2023). OWASP API Security Top 10 - 2023. \\ \url{https://owasp.org/www-project-api-security/}
+    \item OWASP. (2023). OWASP Zed Attack Proxy Project. \\ \url{https://www.zaproxy.org/}
+    \item OWASP. (2023). OWASP Dependency-Check. \\ \url{https://owasp.org/www-project-dependency-check/}
+    \item OWASP. (2023). OWASP ModSecurity Core Rule Set Project. \\ \url{https://owasp.org/www-project-modsecurity-core-rule-set/}
+    \item OWASP. (2023). OWASP Testing Guide v5. \\ \url{https://owasp.org/www-project-web-security-testing-guide/}
+\end{itemize}
+
+\end{document}
