@@ -1,21 +1,21 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Objetivo}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Objetivos Espec\'ificos}{2}{}%
-\contentsline {section}{\numberline {2}Desarrollo}{2}{}%
-\contentsline {subsection}{\numberline {2.1}¿Qué es?}{2}{}%
-\contentsline {section}{\numberline {3}OWASP API Security Top 10 - 2023}{3}{}%
-\contentsline {subsection}{\numberline {3.1}1. API1:2023 – Autorización de Nivel de Objeto Rota (BOLA)}{3}{}%
-\contentsline {subsection}{\numberline {3.2}2. API2:2023 – Autenticación Rota}{4}{}%
-\contentsline {subsection}{\numberline {3.3}3. API3:2023 – Autorización de Nivel de Propiedad de Objeto Rota}{4}{}%
-\contentsline {subsection}{\numberline {3.4}4. API4:2023 – Consumo de Recursos sin Restricciones}{5}{}%
-\contentsline {subsection}{\numberline {3.5}5. API5:2023 – Autorización de Nivel de Función Rota}{5}{}%
-\contentsline {subsection}{\numberline {3.6}6. API6:2023 – Falsificación de Solicitudes del Lado del Servidor (SSRF)}{6}{}%
-\contentsline {subsection}{\numberline {3.7}7. API7:2023 – Configuración de Seguridad Incorrecta}{6}{}%
-\contentsline {subsection}{\numberline {3.8}8. API8:2023 – Falta de Protección Frente a Amenazas Automatizadas}{6}{}%
-\contentsline {subsection}{\numberline {3.9}9. API9:2023 – Gestión Inadecuada del Inventario}{7}{}%
-\contentsline {subsection}{\numberline {3.10}10. API10:2023 – Consumo No Seguro de APIs}{7}{}%
-\contentsline {subsection}{\numberline {3.11}Herramientas OWASP para Resolver Vulnerabilidades}{8}{}%
-\contentsline {section}{\numberline {4}Conclusiones}{8}{}%
-\contentsline {section}{\numberline {5}Recomendaciones}{9}{}%
-\contentsline {section}{\numberline {6}Referencias}{9}{}%
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivo}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivos Espec\'ificos}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Desarrollo}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}¿Qué es?}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}OWASP API Security Top 10 - 2023}{3}{section.3}%
+\contentsline {section}{\numberline {4}API1:2023 – Autorización de Nivel de Objeto Rota (BOLA)}{3}{section.4}%
+\contentsline {section}{\numberline {5}API2:2023 – Autenticación Rota}{4}{section.5}%
+\contentsline {section}{\numberline {6}API3:2023 – Autorización de Nivel de Propiedad de Objeto Rota}{4}{section.6}%
+\contentsline {subsection}{\numberline {6.1}API4:2023 – Consumo de Recursos sin Restricciones}{5}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}API5:2023 – Autorización de Nivel de Función Rota}{5}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}API6:2023 – Falsificación de Solicitudes del Lado del Servidor (SSRF)}{6}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}API7:2023 – Configuración de Seguridad Incorrecta}{6}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}API8:2023 – Falta de Protección Frente a Amenazas Automatizadas}{6}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}API9:2023 – Gestión Inadecuada del Inventario}{7}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}API10:2023 – Consumo No Seguro de APIs}{7}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Herramientas OWASP para Resolver Vulnerabilidades}{8}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Conclusiones}{8}{section.7}%
+\contentsline {section}{\numberline {8}Recomendaciones}{9}{section.8}%
+\contentsline {section}{\numberline {9}Referencias}{9}{section.9}%
