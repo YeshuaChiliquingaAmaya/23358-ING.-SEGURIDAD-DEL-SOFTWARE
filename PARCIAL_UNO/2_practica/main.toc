@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\'{I}ndice}{1}{section*.1}%
+\contentsline {section}{Objetivo de Aprendizaje}{1}{section*.2}%
+\contentsline {section}{Bibliografía}{1}{section*.3}%
+\contentsline {section}{Topología del Experimento}{1}{section*.4}%
+\contentsline {section}{Marco Teórico}{2}{section*.5}%
+\contentsline {subsection}{\numberline {0.1}Autenticación vs Identificación}{2}{subsection.0.1}%
+\contentsline {section}{\numberline {1}Desarrollo}{2}{section.1}%
+\contentsline {section}{Resultados}{5}{section*.13}%
+\contentsline {section}{Conclusiones}{5}{section*.15}%
