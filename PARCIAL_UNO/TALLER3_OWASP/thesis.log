@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.9)  20 MAY 2025 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.22)  26 MAY 2025 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -49,15 +49,13 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count270
 \U@D=\dimen144
-\l@unhyphenated=\language3
+\l@unhyphenated=\language53
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count271
  (/usr/share/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
 Package babel Info: Importing data for spanish
 (babel)             from babel-es.ini. Reported on input line 4167.
-Package babel Info: Hyphen rules for 'spanish' set to \l@english
-(babel)             (\language0). Reported on input line 4167.
 ) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count272
@@ -252,40 +250,20 @@ l.39 \newpage
               [1]
 
 [2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (0.82845pt too wide) in paragraph at lines 68--69
-[]\OT1/cmr/bx/n/12 Promoci^^Son de bue-nas pr^^Sacticas: \OT1/cmr/m/n/12 Fa-cili-ta metodolog^^S^^Pas para dise~nar,
- []
-
-
 Overfull \hbox (4.285pt too wide) in paragraph at lines 69--70
-\OT1/cmr/m/n/12 co-mo OWASP ZAP (her-ramien-ta de an^^Salisis de se-guri-dad), Dependency-
+\OT1/cmr/m/n/12 co-mo OWASP ZAP (he-rra-mien-ta de an^^Salisis de se-gu-ri-dad), Dependency-
  []
 
 
 
 [3]
 Overfull \hbox (3.3578pt too wide) in paragraph at lines 95--96
-[]\OT1/cmr/bx/n/12 Descripci^^Son: \OT1/cmr/m/n/12 Im-ple-menta-ciones de-fi-cientes de au-t-en-ti-caci^^Son, co-mo con-
- []
-
-
-Overfull \hbox (43.73979pt too wide) in paragraph at lines 106--106
-[]\OT1/cmr/bx/n/17.28 API3:2023 { Au-tor-izaci^^Son de Niv-el de Propiedad
+[]\OT1/cmr/bx/n/12 Descripci^^Son: \OT1/cmr/m/n/12 Im-ple-men-ta-cio-nes de-fi-cien-tes de au-ten-ti-ca-ci^^Son, co-mo con-
  []
 
 
 
 [4]
-Overfull \hbox (27.18173pt too wide) in paragraph at lines 114--115
-[]\OT1/cmr/m/n/12 Implementar con-troles de-tal-la-dos y val-i-da-ciones es-tric-tas por propiedad. 
- []
-
-
-Overfull \hbox (32.53368pt too wide) in paragraph at lines 121--122
-[]\OT1/cmr/bx/n/12 Impacto: \OT1/cmr/m/n/12 Dene-gaci^^Son de ser-vi-cio (DoS), cos-tos op-er-a-tivos al-tos y degradaci^^Son
- []
-
-
 
 [5]
 
@@ -295,7 +273,7 @@ Overfull \hbox (32.53368pt too wide) in paragraph at lines 121--122
 
 [8]
 Overfull \hbox (12.2918pt too wide) in paragraph at lines 241--242
-[]\OT1/cmr/m/n/12 Gu^^S^^Pa del De-sar-rol-lador OWASP | Fun-da-men-tos de Se-guri-dad | OWASP
+[]\OT1/cmr/m/n/12 Gu^^S^^Pa del De-sa-rro-lla-dor OWASP | Fun-da-men-tos de Se-gu-ri-dad | OWASP
  []
 
 
@@ -319,15 +297,15 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 02EBAFDFF63128A159469EDEB9C740F9;4770.
  ) 
 Here is how much of TeX's memory you used:
- 9753 strings out of 475171
- 154431 string characters out of 5767096
- 566317 words of memory out of 5000000
- 32627 multiletter control sequences out of 15000+600000
+ 9749 strings out of 473874
+ 154362 string characters out of 5737602
+ 570311 words of memory out of 5000000
+ 32701 multiletter control sequences out of 15000+600000
  564550 words of font info for 55 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 824 hyphenation exceptions out of 8191
  75i,5n,79p,614b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (10 pages, 160100 bytes).
+Output written on thesis.pdf (10 pages, 160162 bytes).
 PDF statistics:
  205 PDF objects out of 1000 (max. 8388607)
  177 compressed objects within 2 object streams

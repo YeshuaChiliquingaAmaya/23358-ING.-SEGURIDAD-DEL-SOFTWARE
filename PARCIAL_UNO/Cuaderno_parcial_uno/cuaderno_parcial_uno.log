@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.22)  25 MAY 2025 02:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.5.22)  26 MAY 2025 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
-(/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
+**/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
+(/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -637,8 +637,8 @@ Package pdftex.def Info: dibujo_practica.png  used on input line 933.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.942 \section
-              {Práctica de laboratorio 6: Análisis de vulnerabilidades con... <./dibujo_practica.png (PNG copy)>]
+l.942 \subsection
+                 {Avance de la Práctica de laboratorio 5: Análisis de vuln... <./dibujo_practica.png (PNG copy)>]
 <zap_inicando.png, id=747, 1877.0125pt x 837.1275pt>
 File: zap_inicando.png Graphic file (type png)
 <use zap_inicando.png>
@@ -673,18 +673,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `cuaderno_parcial_uno.out' has not changed.
-(rerunfilecheck)             Checksum: AED6810306DF13BDD72F19564F01BFFC;21818.
+(rerunfilecheck)             Checksum: DC129726C1047D4A9B9BD92A4FAC142F;21917.
  ) 
 Here is how much of TeX's memory you used:
  11641 strings out of 473874
- 180808 string characters out of 5737602
+ 180936 string characters out of 5737602
  603718 words of memory out of 5000000
  34407 multiletter control sequences out of 15000+600000
  565224 words of font info for 58 fonts, out of 8000000 for 9000
  824 hyphenation exceptions out of 8191
- 75i,9n,79p,648b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,704b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on cuaderno_parcial_uno.pdf (32 pages, 5390563 bytes).
+Output written on cuaderno_parcial_uno.pdf (32 pages, 5390586 bytes).
 PDF statistics:
  843 PDF objects out of 1000 (max. 8388607)
  758 compressed objects within 8 object streams

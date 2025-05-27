@@ -1,7 +1,7 @@
-PWD /home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno
+PWD /home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
+INPUT /home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex
 OUTPUT cuaderno_parcial_uno.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls

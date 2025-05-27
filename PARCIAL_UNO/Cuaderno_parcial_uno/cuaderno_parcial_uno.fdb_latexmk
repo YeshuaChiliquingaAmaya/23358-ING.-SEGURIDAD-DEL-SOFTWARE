@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748156462.99373 "/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex" "cuaderno_parcial_uno.pdf" "cuaderno_parcial_uno" 1748156465.24577 0
-  "/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/PARCIAL_1/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex" 1748156460.46033 34517 916f32817b479b732c37d07dcb060cf9 ""
+["pdflatex"] 1748310489.95912 "/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex" "cuaderno_parcial_uno.pdf" "cuaderno_parcial_uno" 1748310492.09707 0
+  "/home/yeshua/Documents/S1_ABRIL25_AGOSTO_25/SEGURIDAD_DE_SOFTWARE/23358-ING.-SEGURIDAD-DEL-SOFTWARE/PARCIAL_UNO/Cuaderno_parcial_uno/cuaderno_parcial_uno.tex" 1748310481.6107 34536 63530ecf33d9a46c970bdc9d0f30bc90 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1742685315 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1742685315 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -89,10 +89,10 @@
   "atacante_descripcion.png" 1748143899.24524 42987 9175e20e00d7ae2dd46b322ff15d743f ""
   "burpsuite.png" 1748145057.61094 152812 dac3c7f77abe248f3fa3e9cee5355106 ""
   "confort.png" 1748155877.3655 109767 5393fcb71713cb61b10dd1a6f2190b73 ""
-  "cuaderno_parcial_uno.aux" 1748156465.1206 20059 6a37ac79acb6fc802f6627d2de15e7dd "pdflatex"
-  "cuaderno_parcial_uno.out" 1748156465.1256 21818 aed6810306df13bdd72f19564f01bffc "pdflatex"
-  "cuaderno_parcial_uno.tex" 1748156460.46033 34517 916f32817b479b732c37d07dcb060cf9 ""
-  "cuaderno_parcial_uno.toc" 1748156465.1266 10173 bcfde969f25743dbe21585a9a6868682 "pdflatex"
+  "cuaderno_parcial_uno.aux" 1748310491.99047 20092 6de1a768cd5882f2b8bfb69c0faabaae "pdflatex"
+  "cuaderno_parcial_uno.out" 1748310491.99365 21917 dc129726c1047d4a9b9bd92a4fac142f "pdflatex"
+  "cuaderno_parcial_uno.tex" 1748310481.6107 34536 63530ecf33d9a46c970bdc9d0f30bc90 ""
+  "cuaderno_parcial_uno.toc" 1748310491.99475 10206 6dce86204cbd0141abd1e904cadc1afa "pdflatex"
   "dibujo_practica.png" 1748155893.24158 92826 0d8acadaf9e72b4e82fe727c6a61f8bb ""
   "espe.png" 1748142986.13388 66562 62670fa4c6eadb579c2eac7199dd2e83 ""
   "hashcat.png" 1748145069.49001 55051 16ef3a82dfdd422351c2aa42e14437eb ""
